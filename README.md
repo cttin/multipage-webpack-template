@@ -154,6 +154,7 @@ ls
 ## 遇到的问题
 * Dll
   1. `process.cwd`
+    `process.cwd`可参考[Node.js的__dirname，__filename，process.cwd()](https://github.com/jawil/blog/issues/18)
     一开始使用使用DllPlugin、DllReferencePlugin是有问题的，一开始的配置是：
     ```
     new webpack.DllPlugin({
